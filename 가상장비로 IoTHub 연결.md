@@ -73,6 +73,34 @@ csv파일을 클릭한다. Blob편집으로 이동한다.<br>
 데이터가 쌓여 있는 걸 확인할 수 있다.
 </p>
 
-<img width="686" alt="device explorer" src="https://user-images.githubusercontent.com/6082076/46904714-ac84f600-cf23-11e8-8ba6-d6024dd517d4.PNG">
+가상장비로 메시지 보내기 
+-------
+
+이번에는 Device Explorer를 통해서 가상장비로 메시지를 보내 보자<br>
+먼저 가상장비 사이트로 이동해서 코드를 수정한다.<br>
+현재 Led가 데이터를 보낼 때 마다 On되고 메시지가 왔을 때도 On이 되고 있다.<br>
+데이터 보낼 때 On되는 코드를 삭제한다.
+
+sendMessage함수에서<br>
+else { <br>
+        blinkLED(); <br>
+        console.log('Message sent to Azure IoT Hub'); <br>
+} <br>
+이부분에서 blinkLED();를 삭제한다. <br>
+
+<p>
+Run을 클릭해서 실행한다.
+<img width="686" alt="device explorer" src="https://user-images.githubusercontent.com/6082076/46904714-ac84f600-cf23-11e8-8ba6-d6024dd517d4.PNG"> <br>
+Device Explorer에서 Messages To Device로 이동한다.<br>
+Message를 입력하고 Send를 클릭한다.
+</p>
+
+<p>
+가상장비사이트의 출력창에 메시지가 오고 LED가 깜빡거리는 걸 확인할 수 있다.
 <img width="951" alt="default" src="https://user-images.githubusercontent.com/6082076/46904715-ac84f600-cf23-11e8-8846-a0bc5eae6fb0.PNG">
+  
+추가로 메시지 보내는 시간을 바꾸고 싶으면 <br>
+open 함수에서 setInterval(sendMessage, 2000);  <br>
+이부분에서 2000이 밀리세컨드 값이므로 이걸 바꾸면 보내는 시간 또한 변경 가능하다. <br>
+<p/>
 
