@@ -89,14 +89,14 @@ else { <br>
 이부분에서 blinkLED();를 삭제한다. <br>
 
 <p>
-Run을 클릭해서 실행한다.
+Run을 클릭해서 실행한다.  <br>
 <img width="686" alt="device explorer" src="https://user-images.githubusercontent.com/6082076/46904714-ac84f600-cf23-11e8-8ba6-d6024dd517d4.PNG"> <br>
 Device Explorer에서 Messages To Device로 이동한다.<br>
 Message를 입력하고 Send를 클릭한다.
 </p>
 
 <p>
-가상장비사이트의 출력창에 메시지가 오고 LED가 깜빡거리는 걸 확인할 수 있다.
+가상장비사이트의 출력창에 메시지가 오고 LED가 깜빡거리는 걸 확인할 수 있다. <br>
 <img width="951" alt="default" src="https://user-images.githubusercontent.com/6082076/46904715-ac84f600-cf23-11e8-8846-a0bc5eae6fb0.PNG">
   
 추가로 메시지 보내는 시간을 바꾸고 싶으면 <br>
