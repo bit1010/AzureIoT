@@ -1,7 +1,7 @@
 # Azure IoT 실습
 
 애저 체험 계정 가입<br>
-https://azure.microsoft.com/ko-kr/free/
+https://azure.microsoft.com/ko-kr/free/ <br>
 (사용 가능한 Azure 계정이 준비 되어 있을 경우 불필요)
 
 장비 OS를 Windows IoT Core로 진행하려면 Windows 10이 설치된 PC가 있어야 된다.<br>
