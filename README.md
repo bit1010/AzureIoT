@@ -9,5 +9,8 @@ Linux로 진행시는 상관 없음.
 1. 개발툴 설치<br>
 https://github.com/bit1010/AzureIoT/blob/master/1.Visual%20Studio%20%EC%84%A4%EC%B9%98.md
 
-2. Azure IoT <br>
+2. IoTHub 생성 <br>
 https://github.com/bit1010/AzureIoT/blob/master/2.Azure%20IoT%20%EC%83%9D%EC%84%B1.md
+
+3. Storage 추가 <br>
+https://github.com/bit1010/AzureIoT/blob/master/3.Storage%20%EC%B6%94%EA%B0%80.md
