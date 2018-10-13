@@ -1,4 +1,4 @@
-# AzureIoT 실습
+# Azure IoT 실습
 
 애저 체험 계정 가입<br>
 https://azure.microsoft.com/ko-kr/free/
