@@ -14,3 +14,6 @@ https://github.com/bit1010/AzureIoT/blob/master/2.IoTHub%20%EC%83%9D%EC%84%B1.md
 
 3. Storage 추가 <br>
 https://github.com/bit1010/AzureIoT/blob/master/3.Storage%20%EC%B6%94%EA%B0%80.md
+
+4. Stream Analytics 추가 <br>
+https://github.com/bit1010/AzureIoT/blob/master/4.Stream%20Analytics%20%EC%B6%94%EA%B0%80.md
