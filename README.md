@@ -7,7 +7,7 @@ https://azure.microsoft.com/ko-kr/free/ <br>
 장비 OS를 Windows IoT Core로 진행하려면 Windows 10이 설치된 PC가 있어야 된다.<br>
 Linux로 진행시는 상관 없음.
 
-putty 설치 필요(SSH 연결)<br>
+putty 설치 필요(SSH 클라이언트)<br>
 https://www.putty.org/
 
 1. 개발툴 설치<br>
