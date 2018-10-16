@@ -5,8 +5,8 @@ https://azure.microsoft.com/ko-kr/free/ <br>
 (사용 가능한 Azure 계정이 준비 되어 있을 경우 불필요)
 
 장비 OS를 Windows IoT Core로 진행하려면 Windows 10이 설치된 PC가 있어야 된다.<br>
-Linux로 진행시는 상관 없음.
 
+Linux로 진행시 <br>
 putty 설치 필요(SSH 클라이언트)<br>
 https://www.putty.org/
 
